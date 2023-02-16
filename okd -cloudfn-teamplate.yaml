@@ -9,7 +9,7 @@ Resources:
     Properties:
       Tags:
       - Key: Name
-        Value: Anil-openshift-master
+        Value: sri-openshift-master
       - Key:  kubernetes.io/cluster/openshift
         Value: owned
       IamInstanceProfile: yourname-role
@@ -31,7 +31,7 @@ Resources:
     Properties:
       Tags:
       - Key: Name
-        Value: Anil-openshift-node1
+        Value: sri-openshift-node1
       - Key:  kubernetes.io/cluster/openshift
         Value: owned
       IamInstanceProfile: okd-admin
@@ -53,7 +53,7 @@ Resources:
     Properties:
       Tags:
       - Key: Name
-        Value: Anil-openshift-node2
+        Value: sri-openshift-node2
       - Key:  kubernetes.io/cluster/openshift
         Value: owned
       IamInstanceProfile: okd-admin
